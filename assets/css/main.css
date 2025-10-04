@@ -2262,3 +2262,18 @@ body.is-preload #sidebar {
 .week-content.active {
     display: block;
 }
+
+/* Custom Section Headers for practices.html */
+.section-header {
+       margin-top: 3em;
+       margin-bottom: 1.5em;
+       text-align: center;
+   }
+
+.section-header h3 {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #c54545;  /* #f56a6a Red used by theme, but was too bright */
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+}
